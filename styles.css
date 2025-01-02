@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #212529;
+  padding-inline: 1%;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.card-deck .card {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff00;
+}
+
+
+header {
+  background: url('mess-banner.jpg') no-repeat center center/cover;
+  color: #212529;
+  /* color: rgba(51, 66, 27, 0.853); */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.134);
+}
+
+section h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  color: #ddd;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer .social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .social-icons li {
+  display: inline;
+  padding: 4px;
+}
+
+.btn{
+  background-color: #212529;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0559ae;
+}

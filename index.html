@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mess Junction</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<style>
+.hero {
+  position: relative;
+  height: 80vh;
+  color: #212529;
+  background: url('image/crop4.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items:last baseline;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2125291e;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 800px;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  padding: 15px 30px;
+  background-color: #212529;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+  background-color: #0559ae;
+}
+</style>
+</head>
+
+<body background="image/menu-bg.png" style="background-size: cover;">
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">Mess Junction</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menus.html">Mess</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero Section -->
+  <div class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container text-center hero-content">
+      <h1 class="display-4">Welcome to Mess Junction</h1>
+      <p class="lead">Your one-stop platform to explore, review, and compare mess menus across multiple locations.</p>
+      <a href="menus.html" class="btn btn-primary btn-lg">Explore Menus</a>
+    </div>
+  </div>
+
+  <!-- Image Section -->
+  <!-- <div class="position-relative d-flex justify-content-center align-items-center">
+    <img src="image/crop2.jpg" class="img-fluid" alt="Sample Image">
+  </div> -->
+
+  <!-- Header Section -->
+  <!-- <header class="bg-light py-5" style="background-image: url('image/spice.jpg'); background-size: cover;">
+    <div class="container text-center">
+      <h1 class="display-4">Welcome to Mess Junction</h1>
+      <p class="lead">Your one-stop platform to explore, review, and compare mess menus across multiple locations.</p>
+      <a href="menus.html" class="btn btn-primary btn-lg">Explore Menus</a>
+    </div>
+  </header> -->
+
+  <!-- About Us Section -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>
+          Welcome to MessJunction, your one-stop platform for discovering and exploring menus from various messes in
+          your area. We aim to simplify meal planning and enhance your dining experience by offering detailed menu
+          listings and genuine user reviews. Whether you’re a student, professional, or food enthusiast, MessJunction
+          connects you to the best messes around, making it easy to find the food that suits your taste and budget.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="image/cater.jpg" class="img-fluid rounded" alt="About Us">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="container my-5">
+    <h2>Our Services</h2>
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Browse Menus</h5>
+          <p class="card-text">Discover and explore detailed menus from a wide variety of messes in your area, all in
+            one place.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Read and Share Reviews</h5>
+          <p class="card-text">Access genuine reviews from fellow users and share your own experiences to guide others.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Compare Options</h5>
+          <p class="card-text">Easily compare mess offerings to find the perfect fit for your taste, dietary needs, and
+            budget.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Stay Updated</h5>
+          <p class="card-text">Get real-time updates on menu changes, special dishes, and exclusive offers from your
+            favorite messes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Why Choose Us?</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="bi bi-search fs-1 text-primary"></i>
+        <h4>Find Mess Menus</h4>
+        <p>Browse a wide range of mess menus in your area with detailed offerings and pricing.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-star-fill fs-1 text-primary"></i>
+        <h4>Read Reviews</h4>
+        <p>Check honest reviews from other users to help you make informed dining choices.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-heart-fill fs-1 text-primary"></i>
+        <h4>Compare & Select</h4>
+        <p>Compare menus and ratings to find the best mess that suits your taste and budget.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials Section -->
+  <!-- Reviews -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Customer Reviews</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="review-card">
+          <h5>Aniket Singh</h5>
+          <p>"Convenience at Its Best!"
+            Mess Junction made it so easy for me to find a mess near my place with exactly the kind of meals I was looking for. The menus and subscription plans are transparent, and contacting the mess owner was a breeze.</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="review-card">
+          <h5>Arnav Puri</h5>
+          <p>"A Lifesaver for Busy Days!"
+            Being a working professional, I often don’t have time to cook. Mess Junction has been a lifesaver! It’s easy to browse options, compare prices, and place an order—all in one place.</p>
+          <div class="rating">⭐⭐⭐⭐</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="review-card">
+          <h5>Shyam Badgujar</h5>
+          <p>"Great User Experience!"
+            The platform is so user-friendly and well-organized. I can search for messes by location, cuisine, and budget, which saves me so much time. Highly recommended for anyone who relies on mess services.</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer bg-dark text-white py-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p>&copy; 2024 Mess Junction. All Rights Reserved.</p>
+          <ul class="social-icons">
+            <li><a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

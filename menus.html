@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mess Junction - Menus</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    .card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      /* Increase the size */
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+      /* Enhance the shadow */
+    }
+  </style>
+</head>
+
+<body background="image/faq-bg.png" style="background-size: cover;">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mess Junction</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Mess</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-light py-5">
+    <!-- <div class="container text-center">
+      <h1 class="display-5">Explore Mess Menus</h1>
+      <p class="lead">Browse through our extensive collection of mess menus from various locations.</p>
+    </div> -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/c1.png" class="d-block container" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Welcome to Mess Junction</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/c2.png" class="d-block container" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/c3.png" class="d-block container" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </header>
+
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Available Messes</h2>
+    <div class="row g-4">
+      <!-- Mess 1 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/Jio.jpg" class="card-img-top" alt="Mess 1">
+          <div class="card-body">
+            <h5 class="card-title">Jio Mess</h5>
+            <p class="card-text">A popular choice for college students, this mess offers pocket-friendly meal plans with diverse menus catering to youthful tastes and preferences.</p>
+            <a href="md1.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mess 2 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/gcoej1.png" class="card-img-top" alt="Gcoej mess">
+          <div class="card-body">
+            <h5 class="card-title">Government College of Engineering Jalgaon Mess</h5>
+            <p class="card-text">A vegetarian mess offering daily-changing menus with fresh and healthy options.</p>
+            <a href="md2.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mess 3 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/saibhakti.jpg" class="card-img-top" alt="Sai Bhakti Mess">
+          <div class="card-body">
+            <h5 class="card-title">Sai Bhakti Mess</h5>
+            <p class="card-text">Perfect for students, Sai Bhakti Mess provides affordable, filling meals without compromising on taste or quality.</p>
+            <a href="md3.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mess 4 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/spicy.jpg" class="card-img-top" alt="The Spicy Meal">
+          <div class="card-body">
+            <h5 class="card-title">The Spicy Meal</h5>
+            <p class="card-text">A haven for spice lovers, The Spicy Meal serves bold and flavorful dishes, blending regional and fusion cuisines to satisfy adventurous palates..</p>
+            <a href="md4.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mess 5 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/ssm.jpg" class="card-img-top" alt="Swami Samarth Mess">
+          <div class="card-body">
+            <h5 class="card-title">Swami Samarth Mess</h5>
+            <p class="card-text">Offering a homely touch, Swami Samarth Mess specializes in traditional recipes and comfort foods that remind you of mom’s cooking.
+            </p>
+            <a href="md5.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mess 6 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/ganmess.jpg" class="card-img-top" alt="Ganesh Mess">
+          <div class="card-body">
+            <h5 class="card-title">Ganesh Mess</h5>
+            <p class="card-text">Known for its balanced and nutritious meals, Ganesh Mess caters to health-conscious individuals with a variety of low-calorie, high-protein options.</p>
+            <a href="md6.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mess 7 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/oss.jpg" class="card-img-top" alt="Om Sai Mess">
+          <div class="card-body">
+            <h5 class="card-title">Om Sai Mess</h5>
+            <p class="card-text">Known for its compact, portable tiffin services, Om Sai Mess delivers hot, delicious meals right to your doorstep, ideal for busy schedules.
+            </p>
+            <a href="md7.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Mess 8 -->
+      <div class="col-sm-4 col-md-3">
+        <div class="card shadow-sm">
+          <img src="mess/sym.jpg" class="card-img-top" alt="Swadhyay Mess">
+          <div class="card-body">
+            <h5 class="card-title">Swadhyay Mess</h5>
+            <p class="card-text">Designed for those on the go, Swadhyay Mess focuses on fast service and easy-to-eat meals, perfect for busy students.</p>
+            <a href="md8.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer bg-dark text-white py-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p>&copy; 2024 Mess Junction. All Rights Reserved.</p>
+          <ul class="social-icons">
+            <li><a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
